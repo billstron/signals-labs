@@ -1,0 +1,78 @@
+html,body {
+	margin: 0;
+	background: #73afad;
+	/* font-family: "Trebuchet MS", Helvetica, sans-serif; */
+	font-family: 'Sintony', sans-serif;
+}
+
+#coming_soon {
+	position : relative;
+	width : 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#coming_soon #bubble {
+	position : absolute;
+	top : 200px;
+	left : 95px;
+}
+
+#coming_soon #bubble #text {
+	position : absolute;
+	top : 50px;
+	left : 55px;
+	font-size : 38pt;
+	color : white;
+}
+
+#coming_soon #email{
+	position : absolute;
+	top : 270px;
+	left : 590px;
+}
+
+#coming_soon #email #email_input {
+	position : absolute;
+	width : 266px;
+	border : 3px solid white;
+	background : none;
+	color: black;
+	font-size : 12pt;
+	padding : 5px 5px 5px 10px;
+}
+
+#coming_soon #email #email_input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+#coming_soon #email #email_input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+}
+#coming_soon #email #email_input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+}
+#coming_soon #email #email_input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+}
+
+#coming_soon  #email #email_button {
+	position : absolute;
+	top: 45px;
+	border : 3px solid white;
+	margin : 0px;
+	background : #D08948;
+	color: white;
+	font-size : 12pt;
+	padding : 5px 5px 5px 5px;
+}
+
+#coming_soon  #email #email_button:hover {
+	background: #FFA500;
+	background-color: #FFA500;
+}
+
+#coming_soon  #email #email_button:active {
+	position: absolute;
+	top: 46px;
+	left : 1px;
+}

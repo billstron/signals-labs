@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Signals Labs</title>
+
+<link
+	href='//fonts.googleapis.com/css?family=Sintony&subset=latin,latin-ext'
+	rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script>
+$(function(){
+
+	$("#email_button").click(function(){
+		
+		if($("#email_input").val().length > 0){
+			var url = "https://docs.google.com/forms/d/1BV8QXvR2hUQd3r056ioWdEMYI9aWcgL0_CVuWJeJ_iM/formResponse?";
+			url += "entry.1653026343=" + $("#email_input").val(); 
+			url += "&entry.1886195589=Yes&submit=Submit";
+			//$.get(url)
+			window.location = url;
+		}
+	});
+
+});
+
+</script>
+
+</head>
+<html>
+<body>
+	
+	<div id="coming_soon">
+		<div id="bubble">
+			<span id="text">Coming Soon...</span>
+			<img alt="Coming Soon!" src="img/bubble.png"></img>
+		</div>
+		<img alt="Coming Soon!" src="img/minus_bubble_fields_footer.png"></img>
+		<div id="email">
+			<input id="email_input" type="text" placeholder="Email Address"></input>
+			<input id="email_button" type="button" value="Get Notified"></input>
+		</div>
+	</div>
+</body>
+</html>
