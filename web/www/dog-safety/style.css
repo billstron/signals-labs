@@ -1,6 +1,6 @@
-body {
-	/* padding-top: 20px;
+body { /* padding-top: 20px;
 	padding-bottom: 60px; */
+	background: #73afad
 }
 
 /* Custom container */
@@ -44,7 +44,7 @@ body {
 }
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
-.navbar .navbar-inner {
+/* .navbar .navbar-inner {
 	padding: 0;
 }
 
@@ -76,7 +76,7 @@ body {
 	border-right: 0;
 	border-radius: 0 3px 3px 0;
 }
-
+ */
 /* Sticky footer styles
       -------------------------------------------------- */
 html,body {
@@ -94,7 +94,11 @@ html,body {
 }
 
 /* Set the fixed height of the footer here */
-#push,#footer {
+#push{
+	height: 100px;
+}
+
+#footer {
 	height: 60px;
 }
 
@@ -115,11 +119,32 @@ html,body {
 /* Custom page CSS
       -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-/* .container {
-	width: auto;
-	max-width: 680px;
-} */
-
 .container .credit {
 	margin: 20px 0;
+}
+
+.jumbotron {
+	background: rgb(0, 0, 0); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(69, 72, 77, 1) 100% ); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0
+		, 0, 1) ), color-stop(100%, rgba(69, 72, 77, 1) ) );
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(69, 72, 77, 1) 100% ); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(69, 72, 77, 1) 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(69, 72, 77, 1) 100% ); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%,
+		rgba(69, 72, 77, 1) 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#000000',
+		endColorstr='#45484d', GradientType=0 ); /* IE6-9 */
+	color: #f5f5f5;
+	padding : 50px;
+	margin-bottom : 20px;
+}
+
+.smoke-alarm-image{
+	height : 400px;
 }
